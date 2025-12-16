@@ -17,6 +17,7 @@ public class App {
         String cadena1 = "{[()]}"; // VÁLIDO
         String cadena2 = "{[(])}"; // NO VÁLIDO
 
+        System.out.println("Erika Collaguazo \nSalida en consola – Java");
         System.out.println("Cadena: " + cadena1 + " es válida? " + signValidator.isValid(cadena1));
         System.out.println("Cadena: " + cadena2 + " es válida? " + signValidator.isValid(cadena2));
         System.out.println("---------------------------------");
@@ -31,6 +32,7 @@ public class App {
         stack.push(4);
         stack.push(2);
 
+        System.out.println("Erika Collaguazo \nSalida en consola – Java");
         System.out.println("Stack original: " + stack);
         sorter.sort(stack);
         System.out.println("Stack ordenado: " + stack);
@@ -40,6 +42,7 @@ public class App {
     private static void runQueuePalindrome() {
         QueueUtils queueUtils = new QueueUtils();
 
+        System.out.println("Erika Collaguazo \nSalida en consola – Java");
         System.out.println("ana es palíndromo? " + queueUtils.isPalindrome("ana"));
         System.out.println("radar es palíndromo? " + queueUtils.isPalindrome("radar"));
         System.out.println("java es palíndromo? " + queueUtils.isPalindrome("java"));

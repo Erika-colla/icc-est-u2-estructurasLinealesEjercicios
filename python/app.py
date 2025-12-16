@@ -9,6 +9,7 @@ def run_sign_validator():
     cadena1 = "{[()]}"   # VALIDO
     cadena2 = "{[(])}"   # NO VALIDO
 
+    print("Erika Collaguazo \nSalida en consola – python ")
     print(f"Cadena: {cadena1} es válida? {sign_validator.is_valid(cadena1)}")
     print(f"Cadena: {cadena2} es válida? {sign_validator.is_valid(cadena2)}")
     print("---------------------------------")
@@ -18,6 +19,7 @@ def run_stack_sorter():
     sorter = StackSorter()
     stack = [5, 1, 4, 2]
 
+    print("Erika Collaguazo \nSalida en consola – python ")
     print("Stack original:", stack)
     sorter.sort(stack)
     print("Stack ordenado:", stack)
@@ -27,6 +29,7 @@ def run_stack_sorter():
 def run_queue_palindrome():
     queue_utils = QueueUtils()
 
+    print("Erika Collaguazo \nSalida en consola – python ")
     print("ana es palíndromo?", queue_utils.is_palindrome("ana"))
     print("radar es palíndromo?", queue_utils.is_palindrome("radar"))
     print("java es palíndromo?", queue_utils.is_palindrome("java"))
